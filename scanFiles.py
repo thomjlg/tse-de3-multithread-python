@@ -5,6 +5,7 @@ from datetime import datetime
 
 
 def process_line(line):
+    #se connecter a la database ici
     return line
 
 def move_files(file):
