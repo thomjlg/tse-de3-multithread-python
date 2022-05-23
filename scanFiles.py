@@ -27,7 +27,7 @@ if __name__ == "__main__":
     pool = Pool(4)
 
 
-    while(1){
+    while True:
         #dossier de travail (a modifier)
         path = "/Users/thomasjaulgey/Documents/_TSE_IUT/_FISA_DE/_DE3/_DEV/_MultiThread/_Projet"
         
@@ -52,6 +52,6 @@ if __name__ == "__main__":
 
         #on boucle sur ce programme toutes les 5 secondes (pour lancer le processus régulièrement)
         time.sleep(5)
-    }
+    
     
 
