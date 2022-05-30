@@ -12,7 +12,7 @@ def move_files(file):
     new_url = "_performedFiles/" + file
     Path(file).rename(new_url)
 
-def zip_processed(foler):
+def zip_processed(folder):
     output_name = datetime.now().strftime("%Y%m%d_%H%M%S") + "_archive"
     shutil.make_archive(output_name, 'zip', "_performedFiles/")
 
